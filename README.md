@@ -24,12 +24,12 @@ Built with **HTML 5, CSS 3, and JavaScript** — no frameworks or build tool
 
 # Project Structure
 rock-paper-scissors/
-├─ index.html          # Main page
-├─ style.css           # Styles
-├─ script.js           # Game logic
-├─ demo/               # GIFs & screenshots
+├─ index.html
+├─ style.css
+├─ script.js
+├─ demo/
 │   └─ rock paper scissors output.gif
-└─ assets/             # (Optional) Icons, sounds, etc.
+└─ assets/
     └─ rock.png
     └─ paper.png
     └─ scissors.png
