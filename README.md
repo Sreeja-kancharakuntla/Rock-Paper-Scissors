@@ -14,7 +14,7 @@ Built with **HTML 5, CSS 3, and JavaScript** — no frameworks or build tool
 | **Live Scoreboard** | Tracks cumulative wins, losses, and draws. |
 | **Best‑of‑N Mode** | Optional 3‑, 5‑, or 7‑round matches (first to majority wins). |
 | **Round History** | Running log of each round’s choices and result. 
-
+| **Responsive Design**| It works on all types of devices like mobile and laptop effectively|
 # Tech Stack
 | Layer   | Tools |
 |---------|-------|
@@ -34,5 +34,5 @@ rock-paper-scissors/
     └─ rock.png
     └─ paper.png
     └─ scissors.png
-    
+└─README.md  
 # Built with 💙 by Sreeja Kancharakuntla

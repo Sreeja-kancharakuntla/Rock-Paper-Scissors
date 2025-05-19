@@ -1,6 +1,12 @@
 *{
     padding:0px;
     margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1{
     background-color: #780116;
@@ -11,46 +17,43 @@ h1{
     justify-content: center; */
     line-height: 7rem;
     height:7rem;
+    font-size: 2.5rem;
 }
 .choice{
-    height: 200vh;
-    width: 250vw;
-    display: inline;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    max-height: 100px;
+    max-width: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
+    border: 0.1rem solid black; 
+    margin:0.2rem;
 }
 .choices{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     /* background-color: beige; */
-    gap: 3rem;
-    margin: 2.5rem;
+    gap: 2rem;
+    padding: 1rem;
 }
 #rock{
-    background-color: #f7b538;
-    border-radius: 50%;
-    height:20vw;
-    width: 20vw;
+    background-color: #f7b538; 
 }
 #paper{
     background-color: #eae2b7;
-    border-radius: 50%;
-    height:20vw;
-    width: 20vw;
 }
 #scissors{
     background-color: #7f4f24;
-    border-radius: 50%;
-     height:20vw;
-    width: 20vw;
 }
 img {
-    height:80%;
-    width: 80%;
+    height:5rem;
+    width: 7rem;
     border-radius: 50%;
-    border: 0.5rem solid black;
     transition: transform 0.2s ease-in-out; /* smooth hover effect */
 }
 
@@ -63,35 +66,84 @@ img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 4rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
 }
 #user-score,#comp-score{
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
     color: red;
+    font-weight: bold;
 }
 .score-text{
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
 }
 .msg-container{
-    display: inline;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 1.5%;
+    margin: 1.5rem;
 }
 #msg{
     text-align: center;
     font-family: cursive;
     font-weight: 600;
-    font-style: normal;
-    font-size: 200%;
+    font-size: 1.5rem;
     color:black;
-    border-radius: 5rem;
+    border-radius: 2rem;
     background-color: rgb(207, 177, 235);
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 0.5rem 2rem;
 
+}
+
+
+/* --------- RESPONSIVE MEDIA QUERIES ---------- */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 5rem;
+        height: 5rem;
+    }
+
+    .choice {
+        height: 25vw;
+        width: 25vw;
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2rem;
+    }
+
+    .score-text {
+        font-size: 1.2rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .choices {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .choice {
+        height: 30vw;
+        width: 30vw;
+        max-height: 80px;
+        max-width: 80px;
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
