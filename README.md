@@ -28,7 +28,7 @@ rock-paper-scissors/
 - style.css
 - script.js
 - demo/
-   -rock paper scissors output.gif
+   - rock paper scissors output.gif
 - assets/
     - rock.png
     - paper.png
