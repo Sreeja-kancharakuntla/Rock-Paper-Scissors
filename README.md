@@ -24,16 +24,16 @@ Built with **HTML 5, CSS 3, and JavaScript** — no frameworks or build tool
 
 # Project Structure
 rock-paper-scissors/
-├─ index.html
-├─ style.css
-├─ script.js
-├─ demo/
-│   └─ rock paper scissors output.gif
-└─ assets/
-    └─ rock.png
-    └─ paper.png
-    └─ scissors.png
-└─README.md  
+- index.html
+- style.css
+- script.js
+- demo/
+   -rock paper scissors output.gif
+- assets/
+    - rock.png
+    - paper.png
+    - scissors.png
+- README.md  
 
 # Play the game at
 https://rock-paper-scissors-sreeja.netlify.app/
