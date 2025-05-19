@@ -22,7 +22,6 @@ Built with **HTML 5, CSS 3, and JavaScript** — no frameworks or build tool
 | Styling | CSS3 (Flexbox) |
 | Logic   |  JavaScript |
 
-
 # Project Structure
 rock-paper-scissors/
 ├─ index.html          # Main page
@@ -35,4 +34,9 @@ rock-paper-scissors/
     └─ paper.png
     └─ scissors.png
 └─README.md  
+
+# Play the game at
+https://rock-paper-scissors-sreeja.netlify.app/
+
+
 # Built with 💙 by Sreeja Kancharakuntla
